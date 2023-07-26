@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icons/view-dashboard.svg">
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <div class="dashboardLogo">
+                <img src="icons/view-dashboard.svg" alt="icon of a dashboard view" width="40px" />
+                <h3>Dashboard</h3>
+            </div>
+            <div id="nav-menu">
+                <div class="home">
+                    <img src="icons/home.svg" alt="home icon" width="20px" height="20px" />
+                    <h4 class="nav-item">Home</h4>
+                </div>
+                <div class="profile">
+                    <img src="icons/card-account-details-outline.svg" alt="profile icon" width="20px" height="20px" />
+                    <h4 class="nav-item">Profile</h4>
+                </div>
+                <div class="messages">
+                    <img src="icons/message-reply.svg" alt="message reply icon" width="20px" height="20px" />
+                    <h4 class="nav-item">Messages</h4>
+                </div>
+                <div class="history">
+                    <img src="icons/clock-time-three.svg" alt="history icon" width="20px" height="20px" />
+                    <h4 class="nav-item">History</h4>
+                </div>
+                <div class="tasks">
+                    <img src="icons/note-multiple.svg" alt="notes icon" width="20px" height="20px" />
+                    <h4 class="nav-item">Tasks</h4>
+                </div>
+                <div class="communities">
+                    <img src="icons/account-group.svg" alt="people icon" width="20px" height="20px" />
+                    <h4 class="nav-item">Communities</h4>
+                </div>
+            </div>
+            <div id="branding-menu">
+                <div class="settings">
+                    <img src="icons/cog.svg" alt="cog icon" width="20px" height="20px" />
+                    <h4 class="branding-item">Settings</h4>
+                </div>
+                <div class="support">
+                    <img src="icons/help-box.svg" alt="support questions icon" width="20px" height="20px" />
+                    <h4 class="branding-item">Support</h4>
+                </div>
+                <div class="privacy">
+                    <img src="icons/shield-check.svg" alt="shield with a checkmark icon" width="20px" height="20px" />
+                    <h4 class="branding-item">Privacy</h4>
+                </div>
+            </div>
+        </div>
+        <div id="header">
+            <div class="searchBar">
+                <img class="magnifier" src="icons/magnify.svg" alt="search bar icon" width="20px" height="20px" />
+                <input type="search" />
+            </div>
+            <div class="profileStuff">
+                <button class="notificationBell">
+                    <img src="icons/bell-ring-outline.svg" alt="notification bell" width="20px" height="20px" />
+                </button>
+                <button class="profileIcon">
+                    <img src="icons/profileIcons/iguana-icon.svg" alt="profile picture icon" width="35px" height="35px" />
+                </button>
+                <button class="userAccount" width="100px" height="20px">Emily Knott</button>
+            </div>
+            <div class="hiThere">
+                <img class="profilePhoto" src="icons/profileIcons/iguana-icon.svg" alt="profile picture icon" width="50px" height="50px" />
+                <p class="greeting">Hi there,</p>
+                <p class="usernameDisplay">Emily Knott ( <a href="https://github.com/eaknott" class="githubLink">@eaknott</a> ) </p>
+            </div>
+            <div class="actionButtons">
+                <button class="newButton">New</button>
+                <button class="uploadButton">Upload</button>
+                <button class="shareButton">Share</button>
+            </div>
+        </div>
+        <div id="main-content">
+            <div id="your-projects">
+                <p>Your Projects</p>
+                <div id="project-cards">
+                    <div class="card">
+                        <div class="card-header">Super Cool Project</div>
+                        <div class="card-content">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div>
+                        <div class="cardActions">
+                            <button class="starButton"><img src="icons/star-plus-outline.svg" alt=""></button>
+                            <button class="viewButton"><img src="icons/eye-plus-outline.svg" alt=""></button>
+                            <button class="forkButton"><img src="icons/source-fork.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">Other Cool Project</div>
+                        <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl quam, aliquam eu efficitur id, posuere vel tortor. </div>
+                        <div class="cardActions">
+                            <button class="starButton"><img src="icons/star-plus-outline.svg" alt=""></button>
+                            <button class="viewButton"><img src="icons/eye-plus-outline.svg" alt=""></button>
+                            <button class="forkButton"><img src="icons/source-fork.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">Difficult App</div>
+                        <div class="card-content">Proin aliquam lectus nisi, non dictum libero semper viverra. Proin id neque fringilla, venenatis nibh vitae, ultrices nibh.</div>
+                        <div class="cardActions">
+                            <button class="starButton"><img src="icons/star-plus-outline.svg" alt=""></button>
+                            <button class="viewButton"><img src="icons/eye-plus-outline.svg" alt=""></button>
+                            <button class="forkButton"><img src="icons/source-fork.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">Super Easy App</div>
+                        <div class="card-content">Quisque mi risus, ornare nec felis luctus, auctor pharetra ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
+                        <div class="cardActions">
+                            <button class="starButton"><img src="icons/star-plus-outline.svg" alt=""></button>
+                            <button class="viewButton"><img src="icons/eye-plus-outline.svg" alt=""></button>
+                            <button class="forkButton"><img src="icons/source-fork.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">Ad Blocker</div>
+                        <div class="card-content">Vivamus posuere tortor vel nisi pulvinar, dictum dictum justo fringilla. Mauris vitae ipsum id risus efficitur laoreet ut sed tortor. Sed semper dui et diam mattis volutpat.</div>
+                        <div class="cardActions">
+                            <button class="starButton"><img src="icons/star-plus-outline.svg" alt=""></button>
+                            <button class="viewButton"><img src="icons/eye-plus-outline.svg" alt=""></button>
+                            <button class="forkButton"><img src="icons/source-fork.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">Money Maker</div>
+                        <div class="card-content">Aliquam mattis laoreet felis, in placerat lorem cursus ac. Donec ac eleifend dui, sodales ultrices felis. Proin euismod tincidunt lacus, non efficitur diam luctus vel.</div>
+                        <div class="cardActions">
+                            <button class="starButton"><img src="icons/star-plus-outline.svg" alt=""></button>
+                            <button class="viewButton"><img src="icons/eye-plus-outline.svg" alt=""></button>
+                            <button class="forkButton"><img src="icons/source-fork.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">Money Maker</div>
+                        <div class="card-content">In lacus purus, pharetra eget cursus id, ultrices non magna. Suspendisse porta eget tortor sit amet ultricies. Nam metus massa, sagittis id auctor a, iaculis eget sem.</div>
+                        <div class="cardActions">
+                            <button class="starButton"><img src="icons/star-plus-outline.svg" alt=""></button>
+                            <button class="viewButton"><img src="icons/eye-plus-outline.svg" alt=""></button>
+                            <button class="forkButton"><img src="icons/source-fork.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">Money Maker</div>
+                        <div class="card-content">Aenean tempus vehicula ante, vitae consequat lorem suscipit a. Nullam et magna lacus. Aliquam mi purus, tempus et est vel, faucibus aliquet ante.</div>
+                        <div class="cardActions">
+                            <button class="starButton"><img src="icons/star-plus-outline.svg" alt=""></button>
+                            <button class="viewButton"><img src="icons/eye-plus-outline.svg" alt=""></button>
+                            <button class="forkButton"><img src="icons/source-fork.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="announcements">
+                <p>Announcements</p>
+                <ul class="announcement-list">
+                    <li class="announcement-card">
+                        <h5>Site Maintenance</h5>
+                        <div class="announce-card-text">Ut sem velit, rutrum elementum purus sit amet, dapibus posuere nulla. Integer pulvinar posuere interdum. Etiam porta porttitor lacus vitae luctus.</div>
+                    </li>
+                    <li class="announcement-card middle">
+                        <h5>Community Share Day</h5>
+                        <div class="announce-card-text">Cras bibendum, nunc id suscipit pulvinar, ipsum dui maximus urna, lobortis commodo enim massa quis leo. Ut sit amet pharetra ligula.</div>
+                    </li>
+                    <li class="announcement-card">
+                        <h5>Updated Privacy Policy</h5>
+                        <div class="announce-card-text">Nullam leo ligula, accumsan id tincidunt sit amet, rutrum a mi. Duis porta laoreet ligula, vitae tristique ante posuere eu.</div>
+                    </li>
+                </ul>
+            </div>
+            <div id="trending">
+                <p>Trending</p>
+                <div class="trending-list">
+                    <button class="trend-li"><img src="icons/profileIcons/dogprofile.svg" alt="dog profile icon" class="trend-img" /><div class="trend-at">@doggydog</div> <div class="trend-name">World Peace Builder</div></button>
+                    <button class="trend-li"><img src="icons/profileIcons/slothprofile.svg" alt="sloth profile icon" class="trend-img" /><div class="trend-at">@slowgoing</div> <div class="trend-name">Super Cool Project</div></button>                    <button class="trend-li"><img src="icons/profileIcons/workingcatprofile.svg" alt="cat working on laptop profile icon" class="trend-img" /> <div class="trend-at">@workaholickitty</div> <div class="trend-name">Life Changing App</div></button>                    
+                    <button class="trend-li"><img src="icons/profileIcons/iguanaprofile.svg" alt="iguana blue profile icon" class="trend-img" /> <div class="trend-at">@iguanaeat</div> <div class="trend-name">No Traffic Maker</div></button>              
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
