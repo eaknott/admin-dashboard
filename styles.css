@@ -26,8 +26,10 @@ body {
 #sidebar {
     grid-area: 1 / 1 / -1 / 2;
     background-color: var(--mainColor);
-    width: 1fr;
+    width: 20%;
+    height: 100vh;
     min-width: 220px;
+    position: fixed;
 }
 
 .dashboardLogo, .home, .profile, .messages, .history, .tasks, .communities,
